@@ -189,3 +189,6 @@ vendor.rild.libpath=mtk-ril.so
 wifi.direct.interface=p2p0
 wifi.interface=wlan0
 wifi.tethering.interface=ap0
+
+# Audio
+ro.config.vc_call_vol_steps=7
