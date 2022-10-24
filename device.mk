@@ -52,6 +52,16 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
 
+# IMS
+PRODUCT_BOOT_JARS += \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common
+    
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -59,11 +69,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     FrameworksResOverlayViva \
 	SettingsResOverlayViva \
-    SystemUIOverlayViva
-    
-# Partitions
-PRODUCT_BUILD_SUPER_PARTITION := false
-PRODUCT_USE_DYNAMIC_PARTITIONS := true
+    SystemUIOverlayViva \
+    TelephonyOverlayViva
 
 # Product characteristics
 PRODUCT_CHARACTERISTICS := default
