@@ -34,6 +34,13 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "init.target.rc",
+    src: "etc/init.target.rc",
+    sub_dir: "init",
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
     name: "multi_init.rc",
     src: "etc/multi_init.rc",
     sub_dir: "init/hw",

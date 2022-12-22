@@ -229,6 +229,7 @@ PRODUCT_PACKAGES += \
     init.recovery.mt6781.rc \
     miui.factoryreset.rc \
     init.recovery.hardware.rc \
+    init.target.rc \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.enableswap:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.enableswap
