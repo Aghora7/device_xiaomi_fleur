@@ -72,7 +72,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml
-    
+
+#ImsInit
+PRODUCT_PACKAGES += \
+    ImsInit
+        
 # IMS
 PRODUCT_BOOT_JARS += \
     mediatek-common \
