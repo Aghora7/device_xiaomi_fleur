@@ -53,6 +53,14 @@ if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
 
+function blob_fixup {
+    case "$1" in
+        vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod)
+            "${PATCHELF}" --add-needed "libshim_beanpod.so" "${2}"
+            ;;
+    esac
+}
+
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 

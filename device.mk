@@ -108,7 +108,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
     android.hardware.power.stats@1.0-service.mock
-        
+
 # Product characteristics
 PRODUCT_CHARACTERISTICS := default
 
@@ -162,6 +162,11 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Symbols
+PRODUCT_PACKAGES += \
+    libshim_beanpod \
+    libshim_beanpod.vendor \
 
 # Thermal
 PRODUCT_PACKAGES += \
