@@ -69,6 +69,11 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0_system
     
 # IMS
+PRODUCT_PACKAGES += \
+    ims-ext-common \
+    ims_ext_common.xml
+    
+# IMS
 PRODUCT_BOOT_JARS += \
     mediatek-common \
     mediatek-framework \
