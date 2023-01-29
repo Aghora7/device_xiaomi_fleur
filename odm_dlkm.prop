@@ -1,2 +1,2 @@
-persist.sys.usb.config=none
+persist.sys.usb.config=mtp,adb
 ro.miui.product.home=com.miui.home
