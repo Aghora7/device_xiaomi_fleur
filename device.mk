@@ -69,6 +69,12 @@ PRODUCT_BOOT_JARS += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlays \
+    $(LOCAL_PATH)/overlay-lineage
+
 # Device overlays
 PRODUCT_PACKAGES += \
     FrameworksResOverlayViva \
