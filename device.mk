@@ -269,7 +269,6 @@ PRODUCT_PACKAGES += \
     init.sensor_1_0.rc \
     init.cgroup.rc \
     init.recovery.mt6781.rc \
-    miui.factoryreset.rc \
     init.recovery.hardware.rc \
     init.target.rc \
 
