@@ -188,3 +188,6 @@ ro.config.vc_call_vol_steps=7
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
+
+# Logcat
+persist.log.tag.gralloc4=S
